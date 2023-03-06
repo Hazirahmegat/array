@@ -11,7 +11,7 @@ function bmiCalculate($berat, $tinggi)
     $bmi = $berat / ($tinggi * 2);
 
     if ($bmi < 18.5) {
-        $hasil = "Kurung berat badan";
+        $hasil = "Kurang berat badan";
     } else if ($bmi <= 24.9) {
         $hasil = "Normal";
     } else if ($bmi <= 29.9) {
