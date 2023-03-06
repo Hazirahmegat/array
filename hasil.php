@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI Calculator</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;
+        }
+    </style>
 </head>
 <body>
-    sarah
+    <h1>BMI Calculator</h1>
+    <table>
+        <tr>
+            <td>Berat</td>
+            <td><?php
+            $
+            echo $userdata['berat']; ?> kg</td>
+        </tr>
+        <tr>
+            <td>Tinggi</td>
+            <td><?php echo $userdata['tinggi']; ?> m</td>
+        </tr>
+        <tr>
+            <td>BMI</td>
+            <td><?php echo $userdata['bmi']; ?></td>
+        </tr>
+        <tr>
+            <td>Hasil</td>
+            <td><?php echo $hasil; ?></td>
+        </tr>
+    </table>
 </body>
 </html>
