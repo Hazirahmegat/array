@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,20 +22,20 @@
         <tr>
             <td>Berat</td>
             <td><?php
-            $
-            echo $userdata['berat']; ?> kg</td>
+            echo $berat=$_SESSION['berat']; ?> kg</td>
         </tr>
         <tr>
             <td>Tinggi</td>
-            <td><?php echo $userdata['tinggi']; ?> m</td>
+            <td><?php 
+            echo $tinggi=$_SESSION['tinggi']; ?> m</td>
         </tr>
         <tr>
             <td>BMI</td>
-            <td><?php echo $userdata['bmi']; ?></td>
+            <td><?php echo $bmi=$_SESSION['bmi']; ?></td>
         </tr>
         <tr>
-            <td>Hasil</td>
-            <td><?php echo $hasil; ?></td>
+            <td>STATUS</td>
+            <td><?php echo $hasil=$_SESSION['hasil']; ?></td>
         </tr>
     </table>
 </body>
