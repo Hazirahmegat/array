@@ -1,9 +1,10 @@
 form {
     width: 50%;
     margin: 0 auto;
+    padding-top: 20px;
     padding: 20px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
+    background-color: #fffaaf;
+    border: 1px solid rgb(245, 187, 62);
     border-radius: 5px;
 }
 
@@ -15,7 +16,6 @@ label {
     font-weight: bold;
 }
 
-input[type="text"],
 input[type="number"] {
     width: 100%;
     padding: 10px;

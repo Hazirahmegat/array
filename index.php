@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="proses.php" method="post">
+    <h1>BMI CALCULATION</h1>
+    <form action="proses.php" method="post">
         <table>
 
             <tr>
                 <td><label for="berat">BERAT:</label></td>
-                <td><input type="number" name="berat" id="berat" require></td>
+                <td><input type="text" name="berat" id="berat" require></td>
             </tr>
 
             <tr>
                 <td><label for="tinggi">TINGGI:</label></td>
-                <td><input type="number" name="tinggi" id="tinggi" require></td>
+                <td><input type="text" name="tinggi" id="tinggi" require></td>
             </tr>
             <tr>
                 <td><input type="submit" name="submit" value="Submit"></td>
