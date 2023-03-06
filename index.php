@@ -12,18 +12,13 @@
         <table>
 
             <tr>
-                <td><label for="name">NAMA:</label></td>
-                <td><input type="text" name="nama" id="nama" require></td>
+                <td><label for="berat">BERAT:</label></td>
+                <td><input type="number" name="berat" id="berat" require></td>
             </tr>
 
             <tr>
-                <td><label for="bulan">BULAN:</label></td>
-                <td><input type="number" name="bulan" id="bulan" require></td>
-            </tr>
-
-            <tr>
-                <td><label for="harga">HARGA:</label></td>
-                <td><input type="number" name="harga" id="harga" require></td>
+                <td><label for="tinggi">TINGGI:</label></td>
+                <td><input type="number" name="tinggi" id="tinggi" require></td>
             </tr>
             <tr>
                 <td><input type="submit" name="submit" value="Submit"></td>
